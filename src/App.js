@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import ProgressBar from 'react-bootstrap/ProgressBar';
+import './index.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{backgroundImage: "url(" + "https://static9.depositphotos.com/1010826/1179/v/600/depositphotos_11791918-stock-illustration-tower-cranes.jpg" + ")" ,
+    backgroundPosition: 'center',
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat', 
+    height: '100vh',
+    padding: '15px'
+    }}>
+      <h1>Under Construction</h1>
+      <ProgressBar animated now={45} />
+      <p>Yo</p>
     </div>
-  );
+    )
 }
 
 export default App;
