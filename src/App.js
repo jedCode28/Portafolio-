@@ -14,7 +14,6 @@ function App() {
     }}>
       <h1>Under Construction</h1>
       <ProgressBar animated now={45} />
-      <p>Yo</p>
     </div>
     )
 }
