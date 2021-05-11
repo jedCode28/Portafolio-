@@ -2,6 +2,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import './index.css';
+import NavBar from "./components/NavBar"; 
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     height: '100vh',
     padding: '15px'
     }}>
+      <NavBar />
       <h1>Under Construction</h1>
       <ProgressBar animated now={45} />
     </div>
