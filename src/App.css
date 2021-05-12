@@ -29,6 +29,16 @@
   color: #61dafb;
 }
 
+.App-background-image{
+  background-image: url("https://static9.depositphotos.com/1010826/1179/v/600/depositphotos_11791918-stock-illustration-tower-cranes.jpg");
+  background-position: 'center';
+  background-size: 'cover';
+  background-repeat: 'no-repeat';
+  min-height: '100vh';
+  /* padding: '15px'; */
+  color: 'red';
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
