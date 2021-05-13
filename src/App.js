@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import React from "react";
 import NavBar from "./components/NavBar"; 
-import { BrowserRouter, Router, Switch } from 'react-router-dom';
+import { BrowserRouter, Switch } from 'react-router-dom';
 import { Route } from 'react-router-dom';
 import Home from './pages/Home';
 import background_image from './backpic.jpg';
@@ -11,12 +11,14 @@ function App() {
   return (
     <div style={{backgroundImage: `url(${background_image})` ,
     backgroundPosition: 'center',
+    display: 'flex',
+    justifyContent: 'center',
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat', 
     height: '100vh',
     padding: '15px',
     }} >
-      <div >
+      <div style={{width: '1440px', minHeight: '100vh'}}>
       <NavBar />
       <BrowserRouter>
         <Switch>
@@ -37,6 +39,3 @@ export default App;
     height: '100vh',
     padding: '15px'
     }}></div> */}
-
-    // <h1>Under Construction</h1>
-    //   <ProgressBar animated now={45} />
