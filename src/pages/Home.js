@@ -5,7 +5,7 @@ import ProgressBar from 'react-bootstrap/ProgressBar';
 
 const Home = () => {
   return(
-    <div>
+    <div style={{paddingTop: '55px'}}>
       <h1>Under Construction</h1>
       <ProgressBar animated now={45} />
     </div>
