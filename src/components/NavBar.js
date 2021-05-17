@@ -5,9 +5,9 @@ import '../App.css';
 const NavBar = () => {
   return(
     <div style={{width: '500px', textShadow: '2px 1px white'}}>
-      <Navbar as="navbar" bg="dark" fixed="top" style={{width: '503px', padding: '10px', margin: '10px', color: 'white !important', textDecoration: 'underline', borderRadius: '7px'}}> 
+      <Navbar className="nav-class" bg="green" fixed="top" style={{width: '650px', padding: '10px', margin: '10px', color: 'white !important', textDecoration: 'underline'}}> 
       {/* can change from fixed to ^^^sticky on bootstrap website for navbar  */}
-        <Navbar.Brand href="/" style={{fontSize: '1.65rem'}}>Jedediah Wood</Navbar.Brand> 
+        <Navbar.Brand href="/" style={{fontSize: '2rem', textShadow: '1px 1px white !important'}}>Jedediah Wood</Navbar.Brand> 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         {/* <Navbar.Collapse id="basic-navbar-nav"> */}
           <Nav className='navclass'>
