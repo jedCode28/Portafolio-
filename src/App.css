@@ -39,11 +39,11 @@
 }
 
 .card2Main {
-  /* max-height: 35rem; */
+  max-height: 31.3rem;
 }
 
 .soon {
-  
+  max-height: 50px;
 }
 
 
@@ -60,7 +60,7 @@
 .aboot {
   margin-top: 5.5em;
   background-color: bisque;
-  width: 52%;
+  width: 51%;
   border-radius: 7px;
   padding: 2em;
 }
