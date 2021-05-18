@@ -21,6 +21,26 @@
   border-radius: 7px;
 }
 
+.card {
+  /* width: 18rem !important; */
+  max-width: 23.5%; 
+  /* height: 50%; */
+  margin-top: 5.5em !important;
+  margin: 2em;
+}
+
+.card2 {
+  height: 10.8rem;
+}
+
+.cardImage {
+  background-color: #193551;
+  height: 25rem;
+  max-width: 24rem;
+  display: flex;
+  align-content: center;
+}
+
 .aboot {
   margin-top: 5.5em;
   background-color: bisque;
