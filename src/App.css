@@ -21,6 +21,25 @@
   border-radius: 7px;
 }
 
+.aboot {
+  margin-top: 5.5em;
+  background-color: bisque;
+  width: 52%;
+  border-radius: 7px;
+  padding: 2em;
+}
+
+.ul {
+  columns: 2;
+}
+
+.homie {
+  padding: 1em;
+  margin: 5em;
+  /* background-color: bisque; */
+  width: 43%;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

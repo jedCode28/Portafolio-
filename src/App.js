@@ -6,6 +6,9 @@ import { BrowserRouter, Switch } from 'react-router-dom';
 import { Route } from 'react-router-dom';
 import Home from './pages/Home';
 import background_image from './backpic.jpg';
+import About from './pages/About';
+import Jects from './pages/Jects';
+import ContactMe from './pages/ContactMe';
 
 function App() {
   return (
@@ -16,13 +19,16 @@ function App() {
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat', 
     height: '100vh',
-    padding: '15px',
+    // padding: '15px',
     }} >
       <div style={{width: '1440px', minHeight: '100vh'}}>
       <NavBar />
       <BrowserRouter>
         <Switch>
           <Route exact path='/' component={Home} />
+          <Route exact path='/about' component={About} />
+          <Route exact path='/projects' component={Jects} />
+          <Route exact path='/contact' component={ContactMe} />
         </Switch>
       </BrowserRouter>
       </div>
