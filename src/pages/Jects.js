@@ -20,7 +20,7 @@ const Jects = () => {
       </ListGroup>
       <Card.Body>
         <Card.Link href="http://streaks-app.herokuapp.com/" style={{float: 'right'}}>Link To Application</Card.Link>
-        <i class="github icon"></i>
+        <i className="github icon"></i>
         <Card.Link href="https://github.com/jedCode28">My GitHub</Card.Link>
       </Card.Body>
     </Card>
@@ -48,7 +48,7 @@ const Jects = () => {
         <ListGroupItem style={{fontSize: 'large'}} id="listCard1">Perhaps YOUR'S ? ?</ListGroupItem>
       </ListGroup>
       <Card.Body className='soon'>
-      <i class="github icon"></i>
+      <i className="github icon"></i>
         <Card.Link href="https://github.com/jedCode28">My GitHub</Card.Link>
       </Card.Body>
     </Card>
