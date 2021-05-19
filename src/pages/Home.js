@@ -10,7 +10,7 @@ const Home = () => {
   return(
     <div className="homie">
       <h2 style={{display:'flex', justifyContent: 'space-around', 
-      marginBottom: '12px', backgroundColor: '#313127', color:'white', borderRadius: '7px'}}>Welcome to My Web Page!</h2>
+      marginBottom: '12px', backgroundColor: 'bisque', color:'black', borderRadius: '7px'}}>Welcome to My Web Page!</h2>
       {/* <img alt="Jed's Picture" src={profpic}></img> */}
   <Carousel>
   <Carousel.Item>

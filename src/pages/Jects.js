@@ -14,9 +14,9 @@ const Jects = () => {
             </Card.Text>
         </Card.Body>
       <ListGroup className="list-group-flush">
-        <ListGroupItem >Technologies Used:</ListGroupItem>
-        <ListGroupItem>Back-End: Ruby, Ruby/Rails & PostgreSQL/SQL</ListGroupItem>
-        <ListGroupItem>Front-End: Javascript, React, CSS3, HTML5, Bootstrap & Semantic-ui</ListGroupItem>
+        <ListGroupItem id="listCard1">Technologies Used:</ListGroupItem>
+        <ListGroupItem id="listCard1">Back-End: Ruby, Ruby/Rails & PostgreSQL/SQL</ListGroupItem>
+        <ListGroupItem id="listCard1">Front-End: Javascript, React, CSS3, HTML5, Bootstrap & Semantic-ui</ListGroupItem>
       </ListGroup>
       <Card.Body>
         <Card.Link href="http://streaks-app.herokuapp.com/" style={{float: 'right'}}>Link To Application</Card.Link>
@@ -45,7 +45,7 @@ const Jects = () => {
         </div>
       </Card.Body>
       <ListGroup className="list-group-flush">
-        <ListGroupItem style={{fontSize: 'large'}}>Perhaps YOUR'S ? ?</ListGroupItem>
+        <ListGroupItem style={{fontSize: 'large'}} id="listCard1">Perhaps YOUR'S ? ?</ListGroupItem>
       </ListGroup>
       <Card.Body className='soon'>
       <i class="github icon"></i>
