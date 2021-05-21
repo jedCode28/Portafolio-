@@ -28,9 +28,3 @@ const About = () => {
   </div>
   )}
 export default About;
-
-{/* <i class="html5 icon"></i>
-    <i class="css3 icon"></i>
-    <i class="js square icon"></i>
-    <i class="react icon"></i>
-    <i class="ruby icon"></i> */}

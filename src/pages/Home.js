@@ -1,6 +1,5 @@
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ProgressBar from 'react-bootstrap/ProgressBar';
 import profpic from '../images/profpic.jpeg';
 import smilepic from '../images/smilePic.JPG';
 import vincent from '../images/vincent.jpg';

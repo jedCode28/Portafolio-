@@ -37,11 +37,3 @@ function App() {
 }
 
 export default App;
-
-{/* <div style={{backgroundImage: "url(" + "https://static9.depositphotos.com/1010826/1179/v/600/depositphotos_11791918-stock-illustration-tower-cranes.jpg" + ")" ,
-    backgroundPosition: 'center',
-    backgroundSize: 'cover',
-    backgroundRepeat: 'no-repeat', 
-    height: '100vh',
-    padding: '15px'
-    }}></div> */}
