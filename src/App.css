@@ -45,6 +45,11 @@
 .navclass {
   background-color: #313127 !important;
   border-radius: 7px;
+  min-width: 19em;
+  max-height: 2.5em;
+  /* margin-right: 8rem; */
+  display: flex;
+  justify-content: center;
 }
 
 #naveen {
@@ -53,10 +58,17 @@
   border-color: black !important;
   border-radius: 7px;
   max-width: 49.25%;
+  min-width: auto;
+  max-height: 3.75em;
   padding: 10px; 
   margin: 10px; 
   text-decoration: underline;
   margin-left: 25px;
+}
+
+#rightNav {
+  padding-left: 33%;
+  min-width: 200px !important;
 }
 
 .card {
@@ -99,6 +111,9 @@
 
 .aboot {
   margin-top: 5.5em;
+  margin-left: 1rem;
+  max-width: 49.9%;
+  /* padding-top: 1em; */
   background-color: bisque;
   width: 51%;
   border-radius: 7px;

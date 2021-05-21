@@ -1,10 +1,12 @@
 import {Navbar, Nav} from "react-bootstrap";
 import '../App.css';
+import {GoMarkGithub} from "react-icons/go";
+import {FaLinkedin} from "react-icons/fa";
 
 
 const NavBar = () => {
   return(
-    <div style={{backgroundColor: 'black !important'}}>
+    <div>
       <Navbar id="naveen" fixed="top"> 
       {/* can change from fixed to ^^^sticky on bootstrap website for navbar  */}
         <Navbar.Brand href="/" style={{fontSize: '2rem'}}>Jedediah Wood</Navbar.Brand> 
@@ -13,6 +15,12 @@ const NavBar = () => {
             <Nav.Link href="/projects" style={{color: 'white'}}>My Projects</Nav.Link>
             <Nav.Link href="/contact" style={{color: 'white'}}>Contact Me</Nav.Link>
           </Nav>
+          <>
+          <div id="rightNav">
+            <a href="https://github.com/jedCode28"><GoMarkGithub style={{marginRight: "10px", height: "2em", width: "2em"}}/></a>
+            <FaLinkedin style={{color: 'blue', height: "2em", width: "2em"}}/>
+          </div>
+          </>
       </Navbar>
     </div>
   )
