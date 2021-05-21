@@ -43,7 +43,7 @@ const Home = () => {
       className="d-block w-100"
       src={vincent}
       alt="Third slide"
-      style={{maxHeight: '70vh', width: 'auto'}}
+      style={{maxHeight: '70vh', maxWidth: '55vh', margin: '0 auto'}}
     />
 
     <Carousel.Caption>

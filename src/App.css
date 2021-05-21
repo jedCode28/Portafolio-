@@ -68,7 +68,11 @@
 
 #rightNav {
   padding-left: 33%;
+  margin-left: auto;
   min-width: 200px !important;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end !important;
 }
 
 .card {

@@ -16,9 +16,9 @@ const NavBar = () => {
             <Nav.Link href="/contact" style={{color: 'white'}}>Contact Me</Nav.Link>
           </Nav>
           <>
-          <div id="rightNav">
-            <a href="https://github.com/jedCode28"><GoMarkGithub style={{marginRight: "10px", height: "2em", width: "2em"}}/></a>
-            <FaLinkedin style={{color: 'blue', height: "2em", width: "2em"}}/>
+          <div className="ms-auto">
+            <a href="https://github.com/jedCode28"><GoMarkGithub style={{marginRight: "10px", height: "2em", width: "2em", color: "black"}}/></a>
+            <a href="https://linkedin.com/in/jedediahwood"><FaLinkedin style={{color: 'blue', height: "2em", width: "2em"}}/></a>
           </div>
           </>
       </Navbar>
